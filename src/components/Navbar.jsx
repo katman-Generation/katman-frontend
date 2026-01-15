@@ -14,6 +14,8 @@ function Navbar() {
         <Link className="hover:text-yellow-400 transition" to="/">Home</Link>
         <Link className="hover:text-yellow-400 transition" to="/tournaments">Tournaments</Link>
         <Link className="hover:text-yellow-400 transition" to="/shop">Shop</Link>
+        <Link className="hover:text-yellow-400 transition" to="/">about</Link>
+        <Link className="hover:text-yellow-400 transition" to="/">get intouch</Link>
       </div>
 
     </nav>

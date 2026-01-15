@@ -9,12 +9,11 @@ function Home() {
         }}
       >
         <h1 className="text-5xl font-extrabold mb-4">
-          Welcome to <span className="text-yellow-400">KatmanHub</span>
+          Welcome to <span className="text-yellow-400"> the world of KatmanHub</span>
         </h1>
 
         <p className="text-lg max-w-2xl mb-6">
-          The ultimate gaming lounge for tournaments, competitions,
-          and community — built for true fans.
+          the place where gamers unite, tilent shines, dreams take flight and voices are heard.
         </p>
 
         <button className="bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-300 transition">
@@ -32,10 +31,10 @@ function Home() {
           
           {/* Feature 1 */}
           <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
-            <h3 className="text-2xl font-bold mb-4">🎮 Gaming Lounge</h3>
+            <h3 className="text-2xl font-bold mb-4">🎮 Gaming</h3>
             <p className="text-sm text-gray-200">
-              High-end gaming setups, streaming rooms, and casual play
-              for everyone.
+              Play your favorite ps5, xbox, pc, and vr games in our
+              abusolutely epic gaming lounge.with also board games and pool games available.
             </p>
           </div>
 
@@ -43,8 +42,8 @@ function Home() {
           <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
             <h3 className="text-2xl font-bold mb-4">🏆 Tournaments</h3>
             <p className="text-sm text-gray-200">
-              Compete in online and physical tournaments across
-              multiple games.
+              we host a wide variety of tournaments for all games giving out amazing prizes to the winners.
+              come show us wwhat you can do and take home the glory.
             </p>
           </div>
 
@@ -52,8 +51,42 @@ function Home() {
           <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
             <h3 className="text-2xl font-bold mb-4">🛒 Shop & Merch</h3>
             <p className="text-sm text-gray-200">
-              Custom shirts, caps, mugs, and gaming accessories
-              designed for fans.
+              we stocked a variety of personalized home equipments, from tshirts, mugs, caps, met and more.
+              all designed for our beloved gamers and fans.
+            </p>
+          </div>
+          {/* Feature 4 */}
+          <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
+            <h3 className="text-2xl font-bold mb-4">Live Stream</h3>
+            <p className="text-sm text-gray-200">
+              we live stream all tournaments and special events on our
+              platform so you can watch the action from anywhere. so if you looking for a place to stream 
+              your our favorite games, activities and more, we got you covered.
+            </p>
+          </div>
+          {/* Feature 5 */}
+          <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
+            <h3 className="text-2xl font-bold mb-4">Podcast</h3>
+            <p className="text-sm text-gray-200">
+              we host weekly podcast discussing our main topics here in katmanhub,
+              and educating our community and reminding everyone about who we are as zimbabweans.
+            </p>
+          </div>
+          {/* Feature 6 */}
+          <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
+            <h3 className="text-2xl font-bold mb-4">We Host Events</h3>
+            <p className="text-sm text-gray-200">
+              make your events memorable by hosting them at katmanhub.
+              we have the perfect space and facilities for gaming parties, tournaments, and more.
+            </p>
+          </div>
+          {/* Feature 7 */}
+          <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
+            <h3 className="text-2xl font-bold mb-4">photography</h3>
+            <p className="text-sm text-gray-200">
+              we offer professional photography services to capture your best gaming moments,
+              events, and more. our skilled photographers know how to bring out the best in every shot.
+              from birthdays, weddings, to gaming events, we got you covered.
             </p>
           </div>
 
@@ -72,11 +105,11 @@ function Home() {
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <button className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold hover:bg-yellow-300 transition">
-                Join a Tournament
+                See a Tournament
             </button>
 
             <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold hover:bg-yellow-400 hover:text-blue-900 transition">
-                Visit the Lounge
+                Lean More About Us
             </button>
         </div>
       </section>
