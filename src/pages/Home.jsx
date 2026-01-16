@@ -1,3 +1,7 @@
+import chealsebg from '../assets/ChelseaFC.jpeg';
+import { Link } from "react-router-dom";
+
+
 function Home() {
   return (
     <div className="text-white">
@@ -5,7 +9,10 @@ function Home() {
       <section
         className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center"
         style={{
-            backgroundImage: "linear-gradient(rgba(3, 70, 148, 0.9), rgba(3, 70, 148, 0.9)), url('/src/assets/ChelseaFC.jpeg')",
+            backgroundImage: `
+          linear-gradient(rgba(3, 70, 148, 0.9), rgba(3, 70, 148, 0.9)),
+          url(${chealsebg})
+        `,
         }}
       >
         <h1 className="text-5xl font-extrabold mb-4">
@@ -13,7 +20,7 @@ function Home() {
         </h1>
 
         <p className="text-lg max-w-2xl mb-6">
-          the place where gamers unite, tilent shines, dreams take flight and voices are heard.
+          the place where gamers unite, talent shines, dreams take flight and voices are heard.
         </p>
 
         <button className="bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-300 transition">
@@ -104,14 +111,23 @@ function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold hover:bg-yellow-300 transition">
-                See a Tournament
-            </button>
+          
+          <Link
+            to="/tournaments"
+            className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold hover:bg-yellow-300 transition text-center"
+          >
+            See a Tournament
+          </Link>
 
-            <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold hover:bg-yellow-400 hover:text-blue-900 transition">
-                Lean More About Us
-            </button>
+          <Link
+            to="/about"
+            className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg font-bold hover:bg-yellow-400 hover:text-blue-900 transition text-center"
+          >
+            Learn More About Us
+          </Link>
+
         </div>
+
       </section>
 
     </div>
