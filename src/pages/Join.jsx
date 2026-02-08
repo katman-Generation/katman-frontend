@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import api from "../api/axios";
 
 const Join = () => {
   const [agreed, setAgreed] = useState(false);
@@ -22,22 +23,21 @@ const Join = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
     try {
-      const res = await fetch(
-        "https://katmantech-production.up.railway.app/katmanhub/members/join/",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      if (!res.ok) throw new Error("Submission failed");
-
+      const res = await api.post("/katmanhub/members/join/", formData);
       alert("Welcome to the Katmanhub pack 🐺 We’ll be in touch.");
       setAgreed(false);
+      setFormData({
+        first_name: "",
+        surname: "",
+        email: "",
+        phone_number: "",
+        date_of_birth: "",
+        passion: "",
+        contribution: "",
+      });
     } catch (err) {
+      console.error(err);
       alert("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
@@ -70,7 +70,6 @@ const Join = () => {
             We are building a creative ecosystem — a place where passionate
             people come together to create, learn, experiment, and grow.
           </p>
-
           <p>
             Everyone who joins the pack will be interviewed. If there is
             alignment, a <span className="text-white font-semibold">personalized agreement</span>{" "}
@@ -83,7 +82,6 @@ const Join = () => {
           <h2 className="text-2xl font-bold mb-4 text-white">
             We’re building with people passionate about:
           </h2>
-
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-200">
             <li>• Tech & Software</li>
             <li>• Gaming & Streaming</li>
@@ -113,7 +111,7 @@ const Join = () => {
           </label>
         </div>
 
-        {/* 📝 Application Form */}
+        {/* 📝 Form */}
         {agreed && (
           <form
             onSubmit={handleSubmit}
@@ -186,10 +184,11 @@ const Join = () => {
             </button>
           </form>
         )}
-        <div className="mb-12">
+
+        <div className="mt-8 text-center">
           <Link
             to="/members"
-            className="inline-block text-yellow-400 font-semibold hover:underline"
+            className="text-yellow-400 font-semibold hover:underline"
           >
             Meet the Katmanhub Pack →
           </Link>
