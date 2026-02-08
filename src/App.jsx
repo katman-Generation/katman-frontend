@@ -5,6 +5,7 @@ import Tournaments from './pages/Tournaments'
 import Shop from './pages/Shop'
 import About from './pages/About'
 import Join from './pages/Join'
+import Members from './pages/Members'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/about" element={<About />} />
         <Route path="/join" element={<Join />} />
+        <Route path="/members" element={<Members />} />
       </Routes>
     </>
   )

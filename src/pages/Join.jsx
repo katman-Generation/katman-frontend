@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Join = () => {
   const [agreed, setAgreed] = useState(false);
@@ -185,6 +186,14 @@ const Join = () => {
             </button>
           </form>
         )}
+        <div className="mb-12">
+          <Link
+            to="/members"
+            className="inline-block text-yellow-400 font-semibold hover:underline"
+          >
+            Meet the Katmanhub Pack →
+          </Link>
+        </div>
       </div>
     </div>
   );
