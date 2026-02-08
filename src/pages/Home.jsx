@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 
 function Home() {
+  const JoinButton = () => {
+    const navigate = useNavigate();
+  }
   return (
     <div className="text-white">
       {/* Hero Section */}
@@ -23,7 +26,7 @@ function Home() {
           the place where gamers unite, talent shines, dreams take flight and voices are heard.
         </p>
 
-        <button className="bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-300 transition">
+        <button onClick={() => navigate("/join")} className="bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-300 transition">
           Join the Action
         </button>
       </section>
