@@ -102,6 +102,16 @@ function Home() {
               from birthdays, weddings, to gaming events, we got you covered.
             </p>
           </div>
+          {/* Feature 8 */}
+          <div className="bg-blue-900 p-8 rounded-xl text-center hover:scale-105 transition">
+            <h3 className="text-2xl font-bold mb-4">Tech</h3>
+            <p className="text-sm text-gray-200">
+              we build web application, for any business size. Let us know what your business needs
+              and we create it for you. Whether you need s portfolio, e-commerce, a dating site or
+              a web application to manage your business in one place. we got you covered just reach
+              out to us for the magic to happen!
+            </p>
+          </div>
 
         </div>
       </section>

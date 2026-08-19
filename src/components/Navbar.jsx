@@ -41,6 +41,7 @@ function Navbar() {
           <Link onClick={() => setMenuOpen(false)} to="/shop">Shop</Link>
           <Link onClick={() => setMenuOpen(false)} to="/about">Who are we?</Link>
           <Link onClick={() => setMenuOpen(false)} to="/contact">Get in touch</Link>
+          <Link onClick={() => setMenuOpen(false)} to="/tech">Our Tech Portfolio</Link>
         </div>
       )}
     </nav>

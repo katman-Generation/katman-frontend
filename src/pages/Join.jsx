@@ -67,7 +67,7 @@ const Join = () => {
         <div className="space-y-4 text-gray-300 text-lg mb-10">
           <p>
             Katmanhub is <span className="text-white font-semibold">not hiring employees</span>.
-            We are building a creative ecosystem — a place where passionate
+            We are building a creative ecosystem, a place where passionate
             people come together to create, learn, experiment, and grow.
           </p>
           <p>

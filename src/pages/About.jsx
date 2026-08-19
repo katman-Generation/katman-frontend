@@ -36,12 +36,12 @@ function About() {
             Why KatmanHub Exists
           </h2>
           <p className="text-lg text-gray-200 leading-relaxed">
-            Zimbabwe is full of raw talent — creators, gamers, developers,
+            Zimbabwe is full of raw talent, creators, gamers, developers,
             storytellers — but many lack access, platforms, mentorship, and
             visibility. KatmanHub exists to bridge that gap.
             <br /><br />
             We are building a space where talent is discovered, nurtured,
-            showcased, and monetized — while staying true to who we are
+            showcased, and monetized, while staying true to who we are
             culturally.
           </p>
         </section>
@@ -52,7 +52,7 @@ function About() {
           <div>
             <h2 className="text-3xl font-bold mb-4 text-yellow-400">🎙 Podcasts</h2>
             <p className="text-gray-200 text-lg leading-relaxed">
-              Podcasts are our starting point — a way to tell stories, spark
+              Podcasts are our starting point, a way to tell stories, spark
               conversations, and give a voice to thinkers, artists, innovators,
               and everyday people.
               <br /><br />
@@ -85,7 +85,7 @@ function About() {
             <p className="text-gray-200 text-lg leading-relaxed">
               Technology is the backbone of our future.
               <br /><br />
-              We aim to educate, build, and innovate — creating digital products,
+              We aim to educate, build, and innovate, creating digital products,
               platforms, and solutions that empower young people and contribute
               to Zimbabwe’s economic growth.
             </p>
@@ -97,7 +97,7 @@ function About() {
           <div>
             <h2 className="text-3xl font-bold mb-4 text-yellow-400">🎮 Gaming</h2>
             <p className="text-gray-200 text-lg leading-relaxed">
-              Gaming is more than entertainment — it is community, competition,
+              Gaming is more than entertainment. it is community, competition,
               creativity, and opportunity.
               <br /><br />
               From tournaments today to developing our own games tomorrow,
@@ -163,7 +163,7 @@ function About() {
         <section className="text-center pt-20 max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-6">Join the Pack 🐺</h2>
           <p className="text-lg text-gray-200 leading-relaxed">
-            KatmanHub is not just a platform — it is a pack of wolves.
+            KatmanHub is not just a platform, it is a pack of wolves.
             <br /><br />
             Creators, gamers, developers, filmmakers, storytellers, dreamers —
             if you have talent and vision, there is a place for you here.

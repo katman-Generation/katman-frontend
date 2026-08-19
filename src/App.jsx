@@ -6,6 +6,8 @@ import Shop from './pages/Shop'
 import About from './pages/About'
 import Join from './pages/Join'
 import Members from './pages/Members'
+import Tech from './pages/tech'
+import Contact from './pages/contact'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/join" element={<Join />} />
         <Route path="/members" element={<Members />} />
+        <Route path="/tech" element={<Tech />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   )
