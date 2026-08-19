@@ -37,7 +37,7 @@ function About() {
           </h2>
           <p className="text-lg text-gray-200 leading-relaxed">
             Zimbabwe is full of raw talent, creators, gamers, developers,
-            storytellers — but many lack access, platforms, mentorship, and
+            storytellers, but many lack access, platforms, mentorship, and
             visibility. KatmanHub exists to bridge that gap.
             <br /><br />
             We are building a space where talent is discovered, nurtured,
@@ -165,7 +165,7 @@ function About() {
           <p className="text-lg text-gray-200 leading-relaxed">
             KatmanHub is not just a platform, it is a pack of wolves.
             <br /><br />
-            Creators, gamers, developers, filmmakers, storytellers, dreamers —
+            Creators, gamers, developers, filmmakers, storytellers, dreamers
             if you have talent and vision, there is a place for you here.
             Together, we build. Together, we rise. Together, we put Zimbabwe on
             the map.
